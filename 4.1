@@ -1,0 +1,23 @@
+"""Реализовать скрипт, в котором должна быть предусмотрена
+функция расчета заработной платы сотрудника.
+В расчете необходимо использовать формулу: (выработка в часах * ставка в час) + премия.
+Для выполнения расчета для конкретных значений необходимо запускать скрипт с параметрами."""
+
+import sys
+hours, salary_per_our, bonus = map(float, sys.argv[1:])
+print('Заплата составила - {}'.format(auers * fix + bonus))
+
+# Если често не понял этой задачи. Пересмотрел объяснение про sys.argv
+# как её запускать? Из командной строки? Поисчу ещё инф в открытых источниках.
+
+#hours, salary_per_our, bonus = map(float, sys.argv[1:])
+#print('Salary - {}'.format(hours * salary_per_our + bonus))
+#hours, salary_per_our, bonus = map(float, sys.argv[1:])
+#print('Salary - {}'.format(hours * salary_per_our + bonus))
+#from sys import my_script
+#auers, fix, bonus = my_script
+#print('Кол-во отработанных часов: ', auers)
+#print('Ставка в час: ', fix)
+#print('Премия: ', bonus)
+#zp = auers * fix + bonus
+#print('Заплата составила', zp)
